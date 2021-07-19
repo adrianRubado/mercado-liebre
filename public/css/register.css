@@ -1,0 +1,227 @@
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris_oscuro: #666;
+    --gris_medio: rgb(223, 223, 223);
+    --gris_claro: #ebebeb;
+    --verde: #39b54a;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --azul-boton_1: #0044aa;
+    --azul_boton_2: #0022aa;
+    --bordo_boton_1:  #cc1155;
+    --bordo_boton_2:  #cc1156a4;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* register */
+
+.register {
+    line-height: 30px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.register_grupo {
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.register_item {
+    border-radius:5px;
+    border: 0px;
+    height: 30px;
+    width: 100%;
+}
+
+.register_boton {
+    border-radius:5px;
+    border: 0px;
+    height: 35px;
+    width: 100%;
+    color: var(--blanco);
+}
+
+.register_item.fecha {
+    background-color: var(--gris_medio);
+}
+
+.register_boton.enviar {
+    background-color: var(--azul-boton_1);
+}
+
+.register_boton.enviar:hover {
+    background-color: var(--azul_boton_2);
+}
+
+.register_boton.borrar {
+    background-color: var(--bordo_boton_1);
+}
+
+.register_boton.borrar:hover {
+    background-color: var(--bordo_boton_2);
+}
+
+.register_texto {
+    font-weight: bold;
+    font-size:15px;
+}
+
+/* .perfil {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.porcion {
+    width: 50%;
+}
+
+.intereses {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/*login */
+
+.login {
+    line-height: 30px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.login_grupo {
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login_item {
+    border-radius:5px;
+    border: 0px;
+    height: 30px;
+    width: 100%;
+}
+
+.login_boton {
+    border-radius:5px;
+    border: 0px;
+    height: 35px;
+    width: 100%;
+    background-color: var(--azul-boton_1);
+    color: var(--blanco);
+}
+
+.login_boton:hover {
+    background-color: var(--azul_boton_2);
+}
+
+@media (min-width: 768px){
+    .titulares {
+        font-size: 30px;
+    }
+    .ultimaCompra, .ofertas {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .articulo {
+        width: 47%;
+    }
+    .porcion {
+        width: 20%;
+    }
+
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu_derecha {
+        justify-content: flex-end;
+    }
+
+    .menu_izquierda {
+        justify-content: flex-start;
+    }
+
+    .encabezado {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .logo_busqueda {
+        width: 60%;
+    }
+
+    .cuotas {
+        width: 40%;
+        display: flex;
+        padding: 2%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .titulares {
+        font-size: 36px;
+    }
+    .ultimaCompra, .ofertas {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .articulo {
+        width: 30%;
+    }
+    .porcion {
+        width: 20%;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu_derecha {
+        justify-content: flex-end;
+    }
+
+    .menu_izquierda {
+        justify-content: flex-start;
+    }
+
+    .pie {
+        flex-direction: row;
+    }
+
+    .encabezado {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .logo_busqueda {
+        width: 60%;
+    }
+
+    .cuotas {
+        width: 40%;
+        display: flex;
+        padding: 2%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
